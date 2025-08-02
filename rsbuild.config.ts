@@ -16,4 +16,9 @@ export default defineConfig({
       }
     ]
   },
+  output: {
+    distPath: {
+      root: 'dist',
+    },
+  },
 });
