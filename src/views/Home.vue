@@ -14,17 +14,6 @@ export default {
     setup() {
         const route = useRoute()
         const offset = history.state?.offset || 0
-        console.log("offset", offset);
-
-        // onMounted(() => {
-        //     if (route.hash) {
-        //         const el = document.querySelector(route.hash)
-        //         if (el) {
-        //             const y = el.getBoundingClientRect().top + window.pageYOffset + offset;
-        //             window.scrollTo({ top: y, behavior: 'smooth' });
-        //         }
-        //     }
-        // })
         onMounted(() => {
             nextTick(() => {
                 setTimeout(() => {
