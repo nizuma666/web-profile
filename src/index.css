@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --gradient-primary: radial-gradient(96.93% 263.78% at 100% 0%, #0B0318 0%, #1F0F37 12.31%, #0B0318 100%);
+  --gradient-navbar: linear-gradient(90deg, #130824 0%, #1D1033 70.1%, #412B66 100%);
+  --gradient-card: linear-gradient(88.49deg, rgba(123, 76, 219, 0.1) 8.31%; rgba(189, 165, 237, 0.1) 99.41%);
+  --gradient-in-card: linear-gradient(88.49deg, rgba(123, 76, 219, 0.05) 8.31%, rgba(189, 165, 237, 0.05) 99.41%);
+}
+
+@keyframes move-up-down {
+    0%   { transform: translateY(0); }
+    25%  { transform: translateY(30px); }
+    50%  { transform: translateY(30px); }
+    75% { transform: translateY(0); } /* diam di akhir */
+    100% { transform: translateY(0);}
+  }
+
+@keyframes move-down-up {
+    0%   { transform: translateY(0); }
+    25%  { transform: translateY(-80px); }
+    50%  { transform: translateY(-80px); }
+    75% { transform: translateY(0); } /* diam di akhir */
+    100% { transform: translateY(0);}
+  }
+
+.animate-up-down {
+  animation: move-up-down 3s ease-in-out infinite;
+}
+
+.animate-down-up {
+  animation: move-down-up 3s ease-in-out infinite;
+}
