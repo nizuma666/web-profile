@@ -1,16 +1,16 @@
 <template>
-    <section id="project" class="py-[70px] px-[140px] flex flex-col gap-y-10">
+    <section id="project" class="py-[70px] px-20 lg:px-[140px] flex flex-col gap-y-10">
         <div class="text-white font-semibold text-[40px]">Selected Project</div>
-        <div class="p-6 flex flex-row gap-x-10 items-center rounded-2xl backdrop-blur-xs"
+        <div class="p-6 flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row gap-x-10 items-center rounded-2xl backdrop-blur-xs"
             style="background: var(--gradient-in-card);">
-            <div class="rounded-2xl h-[360px] w-1/2 flex justify-center items-center relative overflow-hidden"
+            <div class="rounded-2xl h-[360px] w-full lg:w-1/2 flex justify-center items-center relative overflow-hidden"
                 style="background: var(--gradient-in-card);">
-                <div class="absolute -bottom-56 transition ease-in-out duration-500 hover:-translate-y-48">
+                <div class="lg:absolute -bottom-56 transition ease-in-out duration-500 hover:-translate-y-48 -mb-10 lg:mb-0">
                     <img src="/sam-pic-removebg.png" alt="sam-porto">
                 </div>
-                <img src="/See_Me!.png" alt="see me" class="mb-16">
+                <img src="/See_Me!.png" alt="see me" class="mb-16 hidden lg:block">
             </div>
-            <div class="w-1/2 flex flex-col gap-y-6">
+            <div class="lg:w-1/2 w-full flex flex-col gap-y-6">
                 <div class="flex flex-row gap-x-6">
                     <img src="/logo-sam-venue.svg" alt="logo sam venue">
                     <div>
@@ -35,9 +35,9 @@
                 </RouterLink>
             </div>
         </div>
-        <div class="p-6 flex flex-row gap-x-10 items-center rounded-2xl backdrop-blur-xs"
+        <div class="p-6 flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row gap-x-10 items-center rounded-2xl backdrop-blur-xs"
             style="background: var(--gradient-in-card);">
-            <div class="w-1/2 flex flex-col gap-y-6">
+            <div class="lg:w-1/2 w-full flex flex-col gap-y-6 order-2 lg:order-1">
                 <div class="flex flex-row gap-x-6">
                     <img src="/logo-danain.svg" alt="logo sam venue">
                     <div>
@@ -62,12 +62,12 @@
                     </div>
                 </RouterLink >
             </div>
-            <div class="rounded-2xl h-[360px] w-1/2 flex justify-center items-center relative overflow-hidden"
+            <div class="rounded-2xl h-[360px] lg:w-1/2 w-full flex justify-center items-center relative overflow-hidden order-1 lg:order-2"
                 style="background: var(--gradient-in-card);">
-                <div class="absolute -bottom-56 left-10 transition ease-in-out duration-500 hover:-translate-y-56">
+                <div class="lg:absolute -bottom-56 left-10 transition ease-in-out duration-500 hover:-translate-y-56 -mb-10 lg:mb-0 -ml-14 lg:ml-0">
                     <img src="/mockup-danain.png" alt="danain-porto">
                 </div>
-                <img src="/See_Me!.png" alt="see me" class="mb-16">
+                <img src="/See_Me!.png" alt="see me" class="mb-16 hidden lg:block">
             </div>
         </div>
     </section>

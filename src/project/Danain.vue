@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col gap-y-10 justify-center px-[200px]">
+    <section class="flex flex-col gap-y-10 justify-center px-12 lg:px-[200px]">
         <div class="py-5">
             <img src="/logo-danain-detail.svg" alt="logo danain">
             <p class="font-bold text-[40px]">Danain, Pionir P2P Lending Beragunan Emas</p>

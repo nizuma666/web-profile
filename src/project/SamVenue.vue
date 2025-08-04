@@ -1,10 +1,10 @@
 <template>
-    <section class="flex flex-col gap-y-10 justify-center px-[200px]">
+    <section class="flex flex-col gap-y-10 justify-center px-12 lg:px-[200px]">
 
-        <div class="bg-[#FAF6F7] flex gap-x-10 p-5 justify-center items-center rounded-2xl">
+        <div class="bg-[#FAF6F7] flex flex-col lg:flex-row gap-x-10 p-5 justify-center items-center rounded-2xl">
             <img src="/logo-sam-venue-detail.svg" alt="logo sam venue">
             <div class="flex flex-col gap-y-4">
-                <p class="text-[28px] font-bold">SAM Venue Website</p>
+                <p class="text-[28px] font-bold text-center lg:text-start">SAM Venue Website</p>
                 <p class="text-justify text-base text-[#3F3E39]">SAM Venue is a platform providing venue vendor services
                     and event support. The website focuses on enhancing the user experience in finding suitable
                     locations and event services.</p>

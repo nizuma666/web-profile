@@ -4,12 +4,21 @@ import { RouterLink, useRoute, useRouter } from 'vue-router';
 
 const router = useRouter()
 const route = useRoute()
-const showMenu = ref()
+const isMobileMenuOpen = ref(false)
+
+const toogleMobileMenu = () => {
+    isMobileMenuOpen.value = !isMobileMenuOpen.value
+}
+
+const scrollAndClose = (sectionId, offset = 0) => {
+    ScrollToSection(sectionId, offset)
+    isMobileMenuOpen.value = false
+}
 
 const ScrollToSection = (id, offset = 0) => {
     const el = document.getElementById(id)
     if (route.name !== 'Home') {
-        router.push({ name: 'Home', hash: `#${id}`, state: {offset} })
+        router.push({ name: 'Home', hash: `#${id}`, state: { offset } })
     } else {
         if (el) {
             const y = el.getBoundingClientRect().top + window.pageYOffset + offset;
@@ -32,6 +41,28 @@ const ScrollToSection = (id, offset = 0) => {
             <button @click="ScrollToSection('tools', -80)" class="text-white cursor-pointer">Tools</button>
             <button @click="ScrollToSection('contact', -140)" class="text-white cursor-pointer">Contact</button>
         </div>
-        <div class="lg:hidden"><img src="/icon-hamburger.svg" alt="hamburger-icon"></div>
+        <div class="lg:hidden cursor-pointer" @click="toogleMobileMenu"><img src="/icon-hamburger.svg" alt="hamburger-icon"></div>
+
+        <transition name="fade">
+            <div v-if="isMobileMenuOpen"
+                class="absolute top-full left-0 w-full text-white flex flex-col items-start px-10 py-4 gap-4 lg:hidden z-40 shadow-lg" style="background: var(--gradient-navbar);">
+                <button @click="scrollAndClose('home', -100)" class="text-white cursor-pointer">About Me</button>
+                <button @click="scrollAndClose('project', -100)" class="text-white cursor-pointer">Projects</button>
+                <button @click="scrollAndClose('tools', -100)" class="text-white cursor-pointer">Tools</button>
+                <button @click="scrollAndClose('contact', -100)" class="text-white cursor-pointer">Contact</button>
+            </div>
+        </transition>
     </nav>
 </template>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+</style>

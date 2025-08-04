@@ -1,6 +1,6 @@
 <template>
-    <section class="py-[70px] px-[140px]">
-        <div class="flex gap-x-10 justify-center px-6 items-center">
+    <section class="py-[70px] px-20 lg:px-[140px]">
+        <div class="flex flex-col lg:flex-row gap-y-10 lg:gap-y-0 gap-x-10 justify-center p-0 lg:px-6 items-center">
             <img src="/pic-content-2.png" alt="tiktok-content">
             <div class="flex flex-col gap-y-6">
                 <div>

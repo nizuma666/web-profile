@@ -45,7 +45,9 @@ export default {
     <div style="background: var(--gradient-primary);">
         <Navbar />
         <About ref="home" />
-        <Expertise ref="expertise" />
+        <div class="hidden lg:block">
+            <Expertise ref="expertise" />
+        </div>
         <Project ref="project" />
         <Tools ref="tools" />
         <Contact ref="contact" />
