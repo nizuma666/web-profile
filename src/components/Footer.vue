@@ -22,21 +22,27 @@
             <div class="flex flex-col gap-y-3">
                 <p class="font-semibold text-white">Contanct Me</p>
                 <div class="flex gap-x-4 items-center">
-                    <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
-                        <div class="bg-black rounded-lg p-[13px]">
-                            <img src="/Linkedin.svg" alt="mail">
+                    <a href="https://www.linkedin.com/in/ferdian-septiawan-536a511a4/" target="_blank" rel="noopener noreferrer">
+                        <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
+                            <div class="bg-black rounded-lg p-[13px]">
+                                <img src="/Linkedin.svg" alt="linkedin">
+                            </div>
                         </div>
-                    </div>
-                    <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
-                        <div class="bg-black rounded-lg p-[13px]">
-                            <img src="/Tiktok.svg" alt="mail">
+                    </a>
+                    <a href="https://www.tiktok.com/@median.ux" target="_blank" rel="noopener noreferrer">
+                        <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
+                            <div class="bg-black rounded-lg p-[13px]">
+                                <img src="/Tiktok.svg" alt="tiktok">
+                            </div>
                         </div>
-                    </div>
-                    <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
-                        <div class="bg-black rounded-lg p-[13px]">
-                            <img src="/Insta.svg" alt="mail">
+                    </a>
+                    <a href="https://www.instagram.com/mediancreative" target="_blank">
+                        <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
+                            <div class="bg-black rounded-lg p-[13px]">
+                                <img src="/Insta.svg" alt="instagram">
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
