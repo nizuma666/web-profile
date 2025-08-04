@@ -1,12 +1,3 @@
-<template>
-    <div>
-        <div v-if="loadingState.isLoading" class="fixed inset-0 flex justify-center items-center bg-white z-50">
-            <Loading />
-        </div>
-        <RouterView />
-    </div>
-</template>
-
 <script setup>
 import Navbar from '@components/Navbar.vue';
 import Home from '@views/Home.vue';
@@ -26,3 +17,12 @@ const project = ref(null)
 const contact = ref(null)
 const tools = ref(null)
 </script>
+
+<template>
+    <div>
+        <div v-if="loadingState.isLoading" class="fixed inset-0 flex justify-center items-center bg-white z-50">
+            <Loading />
+        </div>
+        <RouterView />
+    </div>
+</template>
