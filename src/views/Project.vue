@@ -23,7 +23,7 @@
                 <div class="text-base text-white font-normal">SAM Venue is a platform providing venue vendor services
                     and event support. The website focuses on enhancing the user experience in finding suitable
                     locations and event services.</div>
-                <router-link :to="{ name: 'Detail', params: { id: 'sam-venue' } }">
+                <RouterLink to="/sam-venue">
                     <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer w-fit">
                         <div class="bg-white dark:bg-[#130824] rounded-lg p-4 flex gap-x-2">
                             <p
@@ -32,7 +32,7 @@
                             <img src="/arrow-right.svg" alt="arrow right">
                         </div>
                     </div>
-                </router-link>
+                </RouterLink>
             </div>
         </div>
         <div class="p-6 flex flex-row gap-x-10 items-center rounded-2xl backdrop-blur-xs"
@@ -51,7 +51,7 @@
                     role in enhancing the platform’s user experience and optimizing product functionality. Danain is a
                     fintech lending platform that connects lenders and borrowers through secured, asset-backed loans.
                 </div>
-                <router-link :to="{ name: 'Detail', params: { id: 'danain' } }">
+                <RouterLink to="/danain">
                     <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer w-fit">
                         <div class="bg-white dark:bg-[#130824] rounded-lg p-4 flex gap-x-2">
                             <p
@@ -60,7 +60,7 @@
                             <img src="/arrow-right.svg" alt="arrow right">
                         </div>
                     </div>
-                </router-link>
+                </RouterLink >
             </div>
             <div class="rounded-2xl h-[360px] w-1/2 flex justify-center items-center relative overflow-hidden"
                 style="background: var(--gradient-in-card);">

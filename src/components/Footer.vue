@@ -1,6 +1,6 @@
 <template>
     <footer class="w-full bg-black flex flex-col justify-center items-center gap-y-[37px] pt-9">
-        <div class="w-full flex justify-start gap-x-56 pl-[146px]">
+        <div class="w-full flex flex-col lg:flex-row gap-y-5 justify-start gap-x-56 lg:pl-[146px] px-[80px]">
             <div class="cursor-pointer">
                 <img src="/logo.svg" alt="logo-median">
             </div>
@@ -20,7 +20,7 @@
                 </a>
             </div>
             <div class="flex flex-col gap-y-3">
-                <p class="font-semibold text-white">Contanct Me</p>
+                <p class="font-semibold text-white">Social Media</p>
                 <div class="flex gap-x-4 items-center">
                     <a href="https://www.linkedin.com/in/ferdian-septiawan-536a511a4/" target="_blank" rel="noopener noreferrer">
                         <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
