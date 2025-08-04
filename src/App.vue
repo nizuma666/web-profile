@@ -8,17 +8,17 @@
 </template>
 
 <script setup>
-import NavBar from './components/Navbar';
-import Home from './views/Home.vue';
-import Expertise from './views/Expertise.vue';
-import Project from './views/Project.vue';
-import Contact from './views/Contact.vue';
-import Tools from './views/Tools.vue';
-import Purpose from './views/Purpose.vue';
+import Navbar from '@components/Navbar.vue';
+import Home from '@views/Home.vue';
+import Expertise from '@views/Expertise.vue';
+import Project from '@views/Project.vue';
+import Contact from '@views/Contact.vue';
+import Tools from '@views/Tools.vue';
+import Purpose from '@views/Purpose.vue';
 import { ref } from 'vue';
-import Footer from './components/Footer.vue';
-import { loadingState } from './stores/loading';
-import Loading from './components/reusable/Loading.vue';
+import Footer from '@components/Footer.vue';
+import { loadingState } from '@stores/loading';
+import Loading from '@components/reusable/Loading.vue';
 
 const home = ref(null)
 const expertise = ref(null)

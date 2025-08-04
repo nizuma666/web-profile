@@ -1,6 +1,6 @@
 <script>
-import Footer from '../components/Footer.vue';
-import Navbar from '../components/Navbar.vue';
+import Footer from '@components/Footer.vue';
+import Navbar from '@components/Navbar.vue';
 import About from './About.vue';
 import Contact from './Contact.vue';
 import Expertise from './Expertise.vue';

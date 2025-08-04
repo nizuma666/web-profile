@@ -18,7 +18,14 @@
     /* type checking */
     "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@project/*": ["./src/project/*"],
+      "@routes/*": ["./src/project/*"],
+      "@stores/*": ["./src/stores/*"],
+      "@views/*": ["./src/views/*"]
+    }
   },
   "include": ["src"]
 }

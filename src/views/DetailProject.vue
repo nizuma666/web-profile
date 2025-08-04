@@ -12,10 +12,10 @@
 </template>
 
 <script>
-import Footer from '../components/Footer.vue';
-import Navbar from '../components/Navbar.vue';
-import Danain from '../project/Danain.vue';
-import SamVenue from '../project/SamVenue.vue';
+import Footer from '@components/Footer.vue';
+import Navbar from '@components/Navbar.vue';
+import Danain from '@project/Danain.vue';
+import SamVenue from '@project/SamVenue.vue';
 
 export default {
     props: ['id'],
