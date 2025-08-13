@@ -14,30 +14,39 @@
                 experience, I specialize in building intuitive interfaces and managing projects that deliver results.
             </p>
             <div class="flex gap-x-4 items-center">
-                <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
-                    <div class="bg-white dark:bg-[#130824] rounded-lg p-4 flex gap-x-2">
-                        <img src="/mail.svg" alt="mail">
-                        <p
-                            class="bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] bg-clip-text text-transparent text-nowrap">
-                            Email Me
-                        </p>
+                <a href="mailto:ferdianseptiawan91@gmail.com">
+                    <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
+                        <div class="bg-white dark:bg-[#130824] rounded-lg p-4 flex gap-x-2">
+                            <img src="/mail.svg" alt="mail">
+                            <p
+                                class="bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] bg-clip-text text-transparent text-nowrap">
+                                Email Me
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
-                    <div class="bg-white dark:bg-[#130824] rounded-lg p-[13px]">
-                        <img src="/Linkedin.svg" alt="linkedin">
+                </a>
+                <a href="https://www.linkedin.com/in/ferdian-septiawan-536a511a4/" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
+                        <div class="bg-white dark:bg-[#130824] rounded-lg p-[13px]">
+                            <img src="/Linkedin.svg" alt="linkedin">
+                        </div>
                     </div>
-                </div>
-                <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
-                    <div class="bg-white dark:bg-[#130824] rounded-lg p-[13px]">
-                        <img src="/Tiktok.svg" alt="tiktok">
+                </a>
+                <a href="https://www.tiktok.com/@median.ux" target="_blank" rel="noopener noreferrer">
+                    <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
+                        <div class="bg-white dark:bg-[#130824] rounded-lg p-[13px]">
+                            <img src="/Tiktok.svg" alt="tiktok">
+                        </div>
                     </div>
-                </div>
-                <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
-                    <div class="bg-white dark:bg-[#130824] rounded-lg p-[13px]">
-                        <img src="/Insta.svg" alt="instagram">
+                </a>
+                <a href="https://www.instagram.com/mediancreative" target="_blank">
+                    <div class="p-[1px] rounded-lg bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] cursor-pointer">
+                        <div class="bg-white dark:bg-[#130824] rounded-lg p-[13px]">
+                            <img src="/Insta.svg" alt="instagram">
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <p
                 class="bg-gradient-to-r from-[#7B4CDB] to-[#BDA5ED] text-transparent bg-clip-text text-base leading-6 font-medium cursor-pointer">

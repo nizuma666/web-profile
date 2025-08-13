@@ -5,7 +5,7 @@
                 <img src="/logo.svg" alt="logo-median">
             </div>
             <div class="text-white flex flex-col gap-y-3">
-                <p class="font-semibold">Contanct Me</p>
+                <p class="font-semibold">Contact Me</p>
                 <a href="whatsapp://send?phone=+6288802877549">
                     <div class="flex gap-x-2 items-center">
                         <img src="/icon-phone.svg" alt="phone">
